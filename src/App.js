@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar';
+
+// layout colors
+//'my_light_blue': '#F7F7FC',
+//'my_grey': "#E2E2EA",
+//'my_dark_blue': "#5541D7",
+// text colors
+// 'my_dark_grey': "#92929D",
+//'my_green': "#42BDA1",
+//'my_dark_slate': "#11142D"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+
+      <div className="bg-my_light_blue">
+
+      <Navbar  />
+
+      <Sidebar />
+      </div>
     </div>
   );
 }
