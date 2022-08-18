@@ -1,4 +1,5 @@
 
+import Homepage from './components/Homepage';
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar';
 
@@ -12,18 +13,29 @@ import Sidebar from './components/Sidebar';
 //'my_dark_slate': "#11142D"
 
 
+
 function App() {
   return (
+
+    
     <div>
 
 
       <div className="bg-my_light_blue">
 
-      <Navbar  />
+        <Navbar />
 
-      <Sidebar />
+        <Sidebar />
+
+        <Homepage />
+
+        
+        
+
+        
       </div>
     </div>
+    
   );
 }
 

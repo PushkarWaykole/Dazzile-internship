@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className=" bg-white">
 
             
-            <div className=" text-my_dark_grey flex flex-row justify-between align-center  p-4 px-10 border-2 border-sky-500" >
+            <div className=" text-my_dark_grey flex flex-row justify-between align-center  p-1 px-10 " >
 
                 <div className="flex flex-row gap-3 mt-2">
                     <div className="bg-my_grey rounded-lg h-9 w-9 ">
