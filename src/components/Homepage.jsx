@@ -13,11 +13,11 @@ const Homepage = () => {
   return (
     <div>
 
-      <div className=" w-full h-screen fixed border-2 border-sky-500 ml-24 ">
+      <div className=" w-full h-screen fixed ml-24 ">
 
 
 
-        <div className="bg-white w-11/12 h-5/6 border-2 border-sky-500 mx-6 my-6">
+        <div className="bg-white w-11/12 h-5/6  mx-6 my-6">
           <label class="bg-my_light_blue relative text-my_grey focus-within:text-my_grey block m-6">
 
             <Search className="pointer-events-none w-5 h-5 absolute top-1/2 transform -translate-y-1/2 left-3" />
